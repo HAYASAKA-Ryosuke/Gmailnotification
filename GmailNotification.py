@@ -19,7 +19,6 @@ if(status=="OK"):
     if maillist[0] is not '':
        writestring="You got Mail"+now
        f.write(writestring)
-       commands.getoutput(" terminal-notifier -message 新着メッセージが来ております -title 新着のGmail")
     else:
        writestring=""
        f.write(writestring)
